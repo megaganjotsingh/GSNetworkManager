@@ -1,0 +1,16 @@
+PODS:
+  - GSNetworkManager (0.1.0)
+
+DEPENDENCIES:
+  - GSNetworkManager (from `../`)
+
+EXTERNAL SOURCES:
+  GSNetworkManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GSNetworkManager: d70a8be2bdc8838714b41921abd6e1f4a2064b34
+
+PODFILE CHECKSUM: 0b93de69cf136a7884946c90f54f5a96dbbeb890
+
+COCOAPODS: 1.14.3

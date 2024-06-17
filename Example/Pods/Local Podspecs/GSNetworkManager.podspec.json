@@ -1,0 +1,22 @@
+{
+  "name": "GSNetworkManager",
+  "version": "0.1.0",
+  "summary": "A short description of GSNetworkManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/megaganjotsingh/GSNetworkManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "megaganjotsingh": "megaganjotsingh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/megaganjotsingh/GSNetworkManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GSNetworkManager/Classes/**/*"
+}

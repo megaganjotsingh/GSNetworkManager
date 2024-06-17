@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GSNetworkManager_Example' do
+  pod 'GSNetworkManager', :path => '../'
+
+  target 'GSNetworkManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

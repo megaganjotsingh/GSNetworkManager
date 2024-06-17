@@ -1,0 +1,6 @@
+framework module GSNetworkManager {
+  umbrella header "GSNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

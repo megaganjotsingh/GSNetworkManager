@@ -1,0 +1,6 @@
+framework module Pods_GSNetworkManager_Example {
+  umbrella header "Pods-GSNetworkManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
