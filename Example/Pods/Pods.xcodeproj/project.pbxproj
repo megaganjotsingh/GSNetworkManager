@@ -11,7 +11,29 @@
 		0722770C43A5195B4099A15F7A05C71B /* GSNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C008BCA7867FFF49195497BD4900443 /* GSNetworkManager-dummy.m */; };
 		26F1DC881BFCB8676439A7944A35DB7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5519FB1E43DDDBB383D9D1E956CC3D73 /* Pods-GSNetworkManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3833CD656C1519D764C057447A96EC9C /* Pods-GSNetworkManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57C36D1F72CA4659A016E3FFD0B5A8E5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF88B81FF8984FA10C936C4C51D7D36 /* ReplaceMe.swift */; };
+		938970A42C21D59F00FCAA31 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970852C21D59F00FCAA31 /* ApiClient.swift */; };
+		938970A52C21D59F00FCAA31 /* ApiClient+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970862C21D59F00FCAA31 /* ApiClient+Async.swift */; };
+		938970A62C21D59F00FCAA31 /* ApiClient+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970872C21D59F00FCAA31 /* ApiClient+Closure.swift */; };
+		938970A72C21D59F00FCAA31 /* ApiClient+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970882C21D59F00FCAA31 /* ApiClient+Combine.swift */; };
+		938970A82C21D59F00FCAA31 /* ApiClient+CURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970892C21D59F00FCAA31 /* ApiClient+CURL.swift */; };
+		938970A92C21D59F00FCAA31 /* ApiClient+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389708A2C21D59F00FCAA31 /* ApiClient+Download.swift */; };
+		938970AA2C21D59F00FCAA31 /* ApiClient+Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389708B2C21D59F00FCAA31 /* ApiClient+Upload.swift */; };
+		938970AB2C21D59F00FCAA31 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389708C2C21D59F00FCAA31 /* NetworkConfiguration.swift */; };
+		938970AC2C21D59F00FCAA31 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389708E2C21D59F00FCAA31 /* Requestable.swift */; };
+		938970AD2C21D59F00FCAA31 /* DownloadEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970902C21D59F00FCAA31 /* DownloadEndpoint.swift */; };
+		938970AE2C21D59F00FCAA31 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970912C21D59F00FCAA31 /* Endpoint.swift */; };
+		938970AF2C21D59F00FCAA31 /* HTTPBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970922C21D59F00FCAA31 /* HTTPBody.swift */; };
+		938970B02C21D59F00FCAA31 /* MultipartFormEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970932C21D59F00FCAA31 /* MultipartFormEndpoint.swift */; };
+		938970B12C21D59F00FCAA31 /* QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970942C21D59F00FCAA31 /* QueryParameters.swift */; };
+		938970B22C21D59F00FCAA31 /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970962C21D59F00FCAA31 /* Encodable+.swift */; };
+		938970B32C21D59F00FCAA31 /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970972C21D59F00FCAA31 /* JSONDecoder.swift */; };
+		938970B42C21D59F00FCAA31 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970982C21D59F00FCAA31 /* String+.swift */; };
+		938970B52C21D59F00FCAA31 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389709A2C21D59F00FCAA31 /* Response.swift */; };
+		938970B62C21D59F00FCAA31 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389709B2C21D59F00FCAA31 /* Result.swift */; };
+		938970B72C21D59F00FCAA31 /* GSProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389709D2C21D59F00FCAA31 /* GSProgressHUD.swift */; };
+		938970B82C21D59F00FCAA31 /* AnyProgressiveTransferTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389709F2C21D59F00FCAA31 /* AnyProgressiveTransferTask.swift */; };
+		938970B92C21D59F00FCAA31 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970A02C21D59F00FCAA31 /* NetworkError.swift */; };
+		938970BA2C21D59F00FCAA31 /* ThreadSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938970A12C21D59F00FCAA31 /* ThreadSafe.swift */; };
 		AAE901738B5B0C57D3BF514135CFE92E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B1F71F5E8955E1BE90DBBCAE722DC773 /* GSNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A40FAD327CD734C7F0443708B847B321 /* GSNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B68C22956038A0454A0A4B9EDD76E3BF /* Pods-GSNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38849C83C3AC92869174EB9D7BD59333 /* Pods-GSNetworkManager_Example-dummy.m */; };
@@ -40,14 +62,14 @@
 		0C008BCA7867FFF49195497BD4900443 /* GSNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSNetworkManager-dummy.m"; sourceTree = "<group>"; };
 		0EA7F11C32E2D2AD5B603DE80C60E8DF /* Pods-GSNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		10AED96D76D28A900AE89BE5D4B4E102 /* GSNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
-		173891E2A042D88A455E5FB58C3E6ABE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		173891E2A042D88A455E5FB58C3E6ABE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2DA7A4C3830C7C5790388C554DAF92FC /* Pods-GSNetworkManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSNetworkManager_Tests.modulemap"; sourceTree = "<group>"; };
 		312FC84150094CE89B89F2B38DE21EE3 /* GSNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GSNetworkManager-Info.plist"; sourceTree = "<group>"; };
 		3631D953DFA3CD7EB9E3EEBFE70D5E74 /* Pods-GSNetworkManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSNetworkManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		3833CD656C1519D764C057447A96EC9C /* Pods-GSNetworkManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSNetworkManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		38849C83C3AC92869174EB9D7BD59333 /* Pods-GSNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
-		460AAB4E27AC29C347BFBB1D2B989385 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		46B80443C7B7828B4A195D5A48FE4C2A /* Pods-GSNetworkManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GSNetworkManager_Example"; path = Pods_GSNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460AAB4E27AC29C347BFBB1D2B989385 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46B80443C7B7828B4A195D5A48FE4C2A /* Pods_GSNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492C2688B4B3833D81EE65EB5DE8AB68 /* Pods-GSNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5E44F03EC79C3F9C20852C658E3AFF83 /* GSNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSNetworkManager-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,18 +77,40 @@
 		7EC36952AAC58E3AA1E1C3DF18E82B45 /* Pods-GSNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		86C5C6F93AEB2E4E00690C18302714BB /* Pods-GSNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8BEF411E69D64C7252E81A152212125C /* Pods-GSNetworkManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSNetworkManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		938970852C21D59F00FCAA31 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		938970862C21D59F00FCAA31 /* ApiClient+Async.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiClient+Async.swift"; sourceTree = "<group>"; };
+		938970872C21D59F00FCAA31 /* ApiClient+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiClient+Closure.swift"; sourceTree = "<group>"; };
+		938970882C21D59F00FCAA31 /* ApiClient+Combine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiClient+Combine.swift"; sourceTree = "<group>"; };
+		938970892C21D59F00FCAA31 /* ApiClient+CURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiClient+CURL.swift"; sourceTree = "<group>"; };
+		9389708A2C21D59F00FCAA31 /* ApiClient+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiClient+Download.swift"; sourceTree = "<group>"; };
+		9389708B2C21D59F00FCAA31 /* ApiClient+Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiClient+Upload.swift"; sourceTree = "<group>"; };
+		9389708C2C21D59F00FCAA31 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		9389708E2C21D59F00FCAA31 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		938970902C21D59F00FCAA31 /* DownloadEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadEndpoint.swift; sourceTree = "<group>"; };
+		938970912C21D59F00FCAA31 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		938970922C21D59F00FCAA31 /* HTTPBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPBody.swift; sourceTree = "<group>"; };
+		938970932C21D59F00FCAA31 /* MultipartFormEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormEndpoint.swift; sourceTree = "<group>"; };
+		938970942C21D59F00FCAA31 /* QueryParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryParameters.swift; sourceTree = "<group>"; };
+		938970962C21D59F00FCAA31 /* Encodable+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
+		938970972C21D59F00FCAA31 /* JSONDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		938970982C21D59F00FCAA31 /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		9389709A2C21D59F00FCAA31 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		9389709B2C21D59F00FCAA31 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		9389709D2C21D59F00FCAA31 /* GSProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSProgressHUD.swift; sourceTree = "<group>"; };
+		9389709F2C21D59F00FCAA31 /* AnyProgressiveTransferTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyProgressiveTransferTask.swift; sourceTree = "<group>"; };
+		938970A02C21D59F00FCAA31 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		938970A12C21D59F00FCAA31 /* ThreadSafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadSafe.swift; sourceTree = "<group>"; };
 		984874C1347C655EB87B661809016014 /* Pods-GSNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1E38F1D5F0189B9AE7FB16D44978771 /* Pods-GSNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A40FAD327CD734C7F0443708B847B321 /* GSNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSNetworkManager-umbrella.h"; sourceTree = "<group>"; };
 		A52ED8B2C67EE6F240BB4FA06C410382 /* GSNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSNetworkManager.release.xcconfig; sourceTree = "<group>"; };
 		A61997ED75D4F4495FC552BC8B9A0B8A /* Pods-GSNetworkManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSNetworkManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B817468C8DB3A281798B0E40E428ED03 /* Pods-GSNetworkManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSNetworkManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		B84EBCE80165528867814705EF58E0BB /* Pods-GSNetworkManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSNetworkManager_Example-Info.plist"; sourceTree = "<group>"; };
-		BB0AE511A5D94C5BDCDCD91FB81621B6 /* GSNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSNetworkManager; path = GSNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF88B81FF8984FA10C936C4C51D7D36 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GSNetworkManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C3533C29B3A18D769B9BBC6B590D81EB /* Pods-GSNetworkManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GSNetworkManager_Tests"; path = Pods_GSNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6365422F96D3DCCB973323FC38A006B /* GSNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GSNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB0AE511A5D94C5BDCDCD91FB81621B6 /* GSNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3533C29B3A18D769B9BBC6B590D81EB /* Pods_GSNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6365422F96D3DCCB973323FC38A006B /* GSNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GSNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6A3DF72D9E9581CF40C5A587CA5E5CB /* Pods-GSNetworkManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSNetworkManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		CD570B369FA35896B976E4ACBC078966 /* Pods-GSNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCD3EB29B2E7F5CA6B019B61C3B41B66 /* Pods-GSNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
@@ -155,7 +199,7 @@
 		7A91BEB45AEB0320113D6B9E735A8A34 /* GSNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				BEF88B81FF8984FA10C936C4C51D7D36 /* ReplaceMe.swift */,
+				938970A32C21D59F00FCAA31 /* Source */,
 				1F5E44878A84B39D97F4099FA163B8EE /* Pod */,
 				8434B78E1A1B7A150F9352023DBA7973 /* Support Files */,
 			);
@@ -176,6 +220,92 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GSNetworkManager";
+			sourceTree = "<group>";
+		};
+		9389708D2C21D59F00FCAA31 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				938970852C21D59F00FCAA31 /* ApiClient.swift */,
+				938970862C21D59F00FCAA31 /* ApiClient+Async.swift */,
+				938970872C21D59F00FCAA31 /* ApiClient+Closure.swift */,
+				938970882C21D59F00FCAA31 /* ApiClient+Combine.swift */,
+				938970892C21D59F00FCAA31 /* ApiClient+CURL.swift */,
+				9389708A2C21D59F00FCAA31 /* ApiClient+Download.swift */,
+				9389708B2C21D59F00FCAA31 /* ApiClient+Upload.swift */,
+				9389708C2C21D59F00FCAA31 /* NetworkConfiguration.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9389708F2C21D59F00FCAA31 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9389708E2C21D59F00FCAA31 /* Requestable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		938970952C21D59F00FCAA31 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				9389708F2C21D59F00FCAA31 /* Protocol */,
+				938970902C21D59F00FCAA31 /* DownloadEndpoint.swift */,
+				938970912C21D59F00FCAA31 /* Endpoint.swift */,
+				938970922C21D59F00FCAA31 /* HTTPBody.swift */,
+				938970932C21D59F00FCAA31 /* MultipartFormEndpoint.swift */,
+				938970942C21D59F00FCAA31 /* QueryParameters.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		938970992C21D59F00FCAA31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				938970962C21D59F00FCAA31 /* Encodable+.swift */,
+				938970972C21D59F00FCAA31 /* JSONDecoder.swift */,
+				938970982C21D59F00FCAA31 /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9389709C2C21D59F00FCAA31 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				9389709A2C21D59F00FCAA31 /* Response.swift */,
+				9389709B2C21D59F00FCAA31 /* Result.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		9389709E2C21D59F00FCAA31 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9389709D2C21D59F00FCAA31 /* GSProgressHUD.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		938970A22C21D59F00FCAA31 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9389709E2C21D59F00FCAA31 /* Protocols */,
+				9389709F2C21D59F00FCAA31 /* AnyProgressiveTransferTask.swift */,
+				938970A02C21D59F00FCAA31 /* NetworkError.swift */,
+				938970A12C21D59F00FCAA31 /* ThreadSafe.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		938970A32C21D59F00FCAA31 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9389708D2C21D59F00FCAA31 /* Core */,
+				938970952C21D59F00FCAA31 /* Endpoint */,
+				938970992C21D59F00FCAA31 /* Extensions */,
+				9389709C2C21D59F00FCAA31 /* Response */,
+				938970A22C21D59F00FCAA31 /* Utils */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -216,9 +346,9 @@
 		EE39334A2CD062F920656C7E5185C645 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB0AE511A5D94C5BDCDCD91FB81621B6 /* GSNetworkManager */,
-				46B80443C7B7828B4A195D5A48FE4C2A /* Pods-GSNetworkManager_Example */,
-				C3533C29B3A18D769B9BBC6B590D81EB /* Pods-GSNetworkManager_Tests */,
+				BB0AE511A5D94C5BDCDCD91FB81621B6 /* GSNetworkManager.framework */,
+				46B80443C7B7828B4A195D5A48FE4C2A /* Pods_GSNetworkManager_Example.framework */,
+				C3533C29B3A18D769B9BBC6B590D81EB /* Pods_GSNetworkManager_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +399,7 @@
 			);
 			name = "Pods-GSNetworkManager_Example";
 			productName = Pods_GSNetworkManager_Example;
-			productReference = 46B80443C7B7828B4A195D5A48FE4C2A /* Pods-GSNetworkManager_Example */;
+			productReference = 46B80443C7B7828B4A195D5A48FE4C2A /* Pods_GSNetworkManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ABD4CB13B67ED705E8D3F6797AB262CB /* GSNetworkManager */ = {
@@ -287,7 +417,7 @@
 			);
 			name = GSNetworkManager;
 			productName = GSNetworkManager;
-			productReference = BB0AE511A5D94C5BDCDCD91FB81621B6 /* GSNetworkManager */;
+			productReference = BB0AE511A5D94C5BDCDCD91FB81621B6 /* GSNetworkManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA64BA8270304A3E2B39D22BDC49B344 /* Pods-GSNetworkManager_Tests */ = {
@@ -306,7 +436,7 @@
 			);
 			name = "Pods-GSNetworkManager_Tests";
 			productName = Pods_GSNetworkManager_Tests;
-			productReference = C3533C29B3A18D769B9BBC6B590D81EB /* Pods-GSNetworkManager_Tests */;
+			productReference = C3533C29B3A18D769B9BBC6B590D81EB /* Pods_GSNetworkManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -367,8 +497,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938970A92C21D59F00FCAA31 /* ApiClient+Download.swift in Sources */,
+				938970B32C21D59F00FCAA31 /* JSONDecoder.swift in Sources */,
+				938970B92C21D59F00FCAA31 /* NetworkError.swift in Sources */,
+				938970B82C21D59F00FCAA31 /* AnyProgressiveTransferTask.swift in Sources */,
 				0722770C43A5195B4099A15F7A05C71B /* GSNetworkManager-dummy.m in Sources */,
-				57C36D1F72CA4659A016E3FFD0B5A8E5 /* ReplaceMe.swift in Sources */,
+				938970B72C21D59F00FCAA31 /* GSProgressHUD.swift in Sources */,
+				938970AA2C21D59F00FCAA31 /* ApiClient+Upload.swift in Sources */,
+				938970B22C21D59F00FCAA31 /* Encodable+.swift in Sources */,
+				938970B52C21D59F00FCAA31 /* Response.swift in Sources */,
+				938970B62C21D59F00FCAA31 /* Result.swift in Sources */,
+				938970BA2C21D59F00FCAA31 /* ThreadSafe.swift in Sources */,
+				938970A82C21D59F00FCAA31 /* ApiClient+CURL.swift in Sources */,
+				938970A72C21D59F00FCAA31 /* ApiClient+Combine.swift in Sources */,
+				938970AC2C21D59F00FCAA31 /* Requestable.swift in Sources */,
+				938970AB2C21D59F00FCAA31 /* NetworkConfiguration.swift in Sources */,
+				938970B02C21D59F00FCAA31 /* MultipartFormEndpoint.swift in Sources */,
+				938970B42C21D59F00FCAA31 /* String+.swift in Sources */,
+				938970A52C21D59F00FCAA31 /* ApiClient+Async.swift in Sources */,
+				938970A42C21D59F00FCAA31 /* ApiClient.swift in Sources */,
+				938970AF2C21D59F00FCAA31 /* HTTPBody.swift in Sources */,
+				938970A62C21D59F00FCAA31 /* ApiClient+Closure.swift in Sources */,
+				938970AE2C21D59F00FCAA31 /* Endpoint.swift in Sources */,
+				938970AD2C21D59F00FCAA31 /* DownloadEndpoint.swift in Sources */,
+				938970B12C21D59F00FCAA31 /* QueryParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +574,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GSNetworkManager_Example/Pods-GSNetworkManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GSNetworkManager_Example/Pods-GSNetworkManager_Example.modulemap";
@@ -455,7 +607,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GSNetworkManager_Tests/Pods-GSNetworkManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GSNetworkManager_Tests/Pods-GSNetworkManager_Tests.modulemap";
@@ -489,7 +641,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GSNetworkManager/GSNetworkManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GSNetworkManager/GSNetworkManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GSNetworkManager/GSNetworkManager.modulemap";
 				PRODUCT_MODULE_NAME = GSNetworkManager;
@@ -559,8 +711,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -582,7 +733,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GSNetworkManager_Tests/Pods-GSNetworkManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GSNetworkManager_Tests/Pods-GSNetworkManager_Tests.modulemap";
@@ -615,7 +766,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GSNetworkManager/GSNetworkManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GSNetworkManager/GSNetworkManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GSNetworkManager/GSNetworkManager.modulemap";
 				PRODUCT_MODULE_NAME = GSNetworkManager;
@@ -647,7 +798,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-GSNetworkManager_Example/Pods-GSNetworkManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GSNetworkManager_Example/Pods-GSNetworkManager_Example.modulemap";
