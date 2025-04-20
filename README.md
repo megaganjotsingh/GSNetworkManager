@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Use
+```
 let apiClient = ApiClient(
   config: NetworkConfiguration(
     baseURL: URL(string: "https://reqres.in/api/")! 
@@ -21,6 +22,7 @@ let getEndpoint = Endpoint<Data>(
   body: nil
 )      
 try? await apiClient.request(with: getEndpoint)
+```
 
 ## Requirements
 
